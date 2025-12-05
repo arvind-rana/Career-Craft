@@ -1,36 +1,196 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Career-Craft Overview
 
-## Getting Started
+Career-Craft is a full-stack AI platform designed to help students, job seekers, and professionals improve their career profile, resume quality, communication skills, and interview readiness.
+It integrates AI resume generation, curated study material, interview prep tools, and user-specific dashboards, making it a complete digital career coach.
 
-First, run the development server:
+This project demonstrates strong skills in:
 
-```bash
+Full-stack architecture
+
+AI workflow automation
+
+Secure authentication
+
+Database modeling
+
+UI/UX engineering
+
+Real-world SaaS development
+
+✔ Real-world SaaS structure (auth → dashboard → builder → background jobs)
+✔ AI-assisted resume generation system
+✔ Modern UI using Shadcn + Tailwind
+✔ Full backend architecture with Prisma & Neon
+✔ Production-ready workflows using Inngest
+✔ Shows end-to-end product thinking
+
+🛠️ Tech Stack
+Frontend
+
+Next.js (App Router)
+
+React.js
+
+Tailwind CSS
+
+Shadcn UI
+
+Client & Server Components
+
+Backend
+
+Next.js Server Actions
+
+Prisma ORM
+
+Neon PostgreSQL
+
+Inngest (async workflows)
+
+AI Capabilities
+
+Role-based resume templates
+
+AI-generated resume content
+
+ATS-optimized formatting
+
+Authentication
+
+Clerk Authentication
+
+Protected routes
+
+Secure session management
+
+Utilities
+
+Sonner Notifications
+
+Git & GitHub
+
+Vercel Deployment
+
+🖼️ Screenshots (Preview)
+
+Replace with real screenshots when available.
+
+
+📁 Project Structure
+career-craft/
+│
+├── app/
+│   ├── dashboard/              # User dashboard
+│   ├── resume-builder/         # AI resume generation flow
+│   ├── interview-prep/         # Interview materials
+│   ├── study-material/         # Notes & learning resources
+│   ├── api/                    # Backend API endpoints
+│   └── layout.js               # Root layout
+│
+├── components/
+│   └── ui/                     # Shadcn reusable components
+│   └── ResumePreview.js        # Resume preview & templates
+│
+├── prisma/
+│   └── schema.prisma           # Database schema
+│
+├── inngest/                    # Background job handlers
+├── public/                     # Images & assets
+├── styles/                     # global.css
+├── .env.local
+├── package.json
+├── next.config.js
+└── README.md
+
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https:https://github.com/arvind-rana/Career-Craft
+cd career-craft
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Environment variables
+
+Create a .env.local file:
+
+DATABASE_URL=""
+CLERK_PUBLISHABLE_KEY=""
+CLERK_SECRET_KEY=""
+INGEST_API_KEY=""
+
+4️⃣ Run Prisma migrations
+npx prisma migrate dev
+
+5️⃣ Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+App runs on → http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✨ Features
+📝 AI Resume Builder
 
-## Learn More
+Auto-generates ATS-optimized resumes
 
-To learn more about Next.js, take a look at the following resources:
+Multiple industry templates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Keyword-rich suggestions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Export options
 
-## Deploy on Vercel
+🎤 Interview Preparation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+HR & technical questions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Behavioral interview guidance
+
+Curated practice questions
+
+📚 Study Material
+
+Topic-wise resources
+
+Clean UI for easy learning
+
+Categorized notes
+
+🔐 Authentication
+
+Clerk login/signup
+
+Protected routes
+
+User profiles
+
+⚙️ Background Processing (Inngest)
+
+Resume generation queues
+
+Async workflows
+
+Improved performance
+
+🎨 Modern UI / UX
+
+Tailwind + Shadcn components
+
+Fully responsive layout
+
+Minimalistic & elegant design
+
+🧑‍💻 Author
+
+Arvind Rana
+📧 Email: arvindrana8650@gmail.com
+
+🔗 Portfolio (optional): add link here
+🔗 LinkedIn (optional): https://www.linkedin.com/in/arvindrana15/
+
+⭐ Support This Project
+
+If Career-Craft helped or inspired you:
+
+⭐ Star this repository
+🔁 Share with others
+💬 Give feedback or suggestions
