@@ -42,31 +42,35 @@ Sonner Notifications, Git & GitHub, Vercel Deployment
 
 <table> <tr> <td align="center"> <img src="./public/homePage.png" width="90%" alt="Home Page" /> <br /><strong>Home Page</strong> </td> <td align="center"> <img src="./public/faqPage.png" width="90%" alt="FAQ Page" /> <br /><strong>FAQ Page</strong> </td> </tr> <tr> <td align="center"> <img src="./public/workPage.png" width="90%" alt="Work Page" /> <br /><strong>Work Page</strong> </td> <td align="center"> <img src="./public/interviewPage.png" width="90%" alt="Interview Page" /> <br /><strong>Interview Page</strong> </td> </tr> <tr> <td align="center"> <img src="./public/coverLetterPage.png" width="90%" alt="Cover Letter Page" /> <br /><strong>Cover Letter Page</strong> </td> <td align="center"> <img src="./public/resumeBuilderPage.png" width="90%" alt="Resume Builder Page" /> <br /><strong>Resume Builder Page</strong> </td> </tr> </table>
 
-📁 Project Structure
+
+
+
+
 career-craft/
 │
-├── app/
-│   ├── dashboard/              # User dashboard
-│   ├── resume-builder/         # AI resume generation
-│   ├── interview-prep/         # Interview guidance
-│   ├── study-material/         # Learning resources
-│   ├── api/                    # API endpoints
-│   └── layout.js               # Root layout
+├── 📂 app/                          
+│   ├── 📁 dashboard/                – User dashboard
+│   ├── 📁 resume-builder/           – AI resume generator
+│   ├── 📁 interview-prep/           – Interview prep modules
+│   ├── 📁 study-material/           – Study resources
+│   ├── 📁 api/                      – API endpoints
+│   └── 📄 layout.js                 – Root layout
 │
-├── components/
-│   └── ui/                     # Shadcn reusable components
-│   └── ResumePreview.js        # Resume preview module
+├── 📂 components/
+│   ├── 📁 ui/                       – Shadcn UI components
+│   └── 📄 ResumePreview.js          – Resume preview component
 │
-├── prisma/
-│   └── schema.prisma           # Database schema
+├── 📂 prisma/
+│   └── 📄 schema.prisma             – Prisma DB schema
 │
-├── inngest/                    # Background job handlers
-├── public/                     # Images & assets
-├── styles/                     # Global stylesheet
-├── .env.local
-├── package.json
-├── next.config.js
-└── README.md
+├── ⚙️ inngest/                      – Background jobs
+├── 🖼️ public/                       – Images & assets
+├── 🎨 styles/                       – Global CSS
+│
+├── 🔐 .env.local                    – Environment variables
+├── 📦 package.json                  – Scripts & dependencies
+├── ⚙️ next.config.js                – Next.js config
+└── 📘 README.md                     – Documentation
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
