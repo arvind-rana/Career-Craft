@@ -40,13 +40,7 @@ Sonner Notifications, Git & GitHub, Vercel Deployment
 
 🖼️ Screenshots
 
-![Dashboard Screenshot](./public/homePage.png)
-![Resume Builder](./public/faqPage.png)
-![WorkPage](./public/workPage.png)
-![Interview Page](./public/interviewPage.png)
-![CoverLetter](./public/coverLetterPage.png)
-![resume builder ](./public/resumeBuilderPage.png)
-![Dashboard Screenshot](./public/)
+<table> <tr> <td align="center"> <img src="./public/homePage.png" width="90%" alt="Home Page" /> <br /><strong>Home Page</strong> </td> <td align="center"> <img src="./public/faqPage.png" width="90%" alt="FAQ Page" /> <br /><strong>FAQ Page</strong> </td> </tr> <tr> <td align="center"> <img src="./public/workPage.png" width="90%" alt="Work Page" /> <br /><strong>Work Page</strong> </td> <td align="center"> <img src="./public/interviewPage.png" width="90%" alt="Interview Page" /> <br /><strong>Interview Page</strong> </td> </tr> <tr> <td align="center"> <img src="./public/coverLetterPage.png" width="90%" alt="Cover Letter Page" /> <br /><strong>Cover Letter Page</strong> </td> <td align="center"> <img src="./public/resumeBuilderPage.png" width="90%" alt="Resume Builder Page" /> <br /><strong>Resume Builder Page</strong> </td> </tr> </table>
 
 📁 Project Structure
 career-craft/
