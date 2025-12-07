@@ -44,33 +44,48 @@ Sonner Notifications, Git & GitHub, Vercel Deployment
 
 
 
+Project Structure 
 
+/src
+  📂 app
+    📁 dashboard
+    📁 resume-builder
+    📁 interview-prep
+    📁 study-material
+    📁 api
+    📄 layout.js
 
-career-craft/
-│
-├── 📂 app/                          
-│   ├── 📁 dashboard/                – User dashboard
-│   ├── 📁 resume-builder/           – AI resume generator
-│   ├── 📁 interview-prep/           – Interview prep modules
-│   ├── 📁 study-material/           – Study resources
-│   ├── 📁 api/                      – API endpoints
-│   └── 📄 layout.js                 – Root layout
-│
-├── 📂 components/
-│   ├── 📁 ui/                       – Shadcn UI components
-│   └── 📄 ResumePreview.js          – Resume preview component
-│
-├── 📂 prisma/
-│   └── 📄 schema.prisma             – Prisma DB schema
-│
-├── ⚙️ inngest/                      – Background jobs
-├── 🖼️ public/                       – Images & assets
-├── 🎨 styles/                       – Global CSS
-│
-├── 🔐 .env.local                    – Environment variables
-├── 📦 package.json                  – Scripts & dependencies
-├── ⚙️ next.config.js                – Next.js config
-└── 📘 README.md                     – Documentation
+  📂 components
+    📁 ui
+    📄 ResumePreview.js
+
+  📂 lib
+    📄 prisma.js
+    📄 helpers.js
+
+  📂 hooks
+    📄 use-fetch.js
+    📄 use-auth.js
+
+  📂 utils
+    📄 validators.js
+    📄 constants.js
+
+  🎨 styles
+    📄 globals.css
+
+  ⚙️ inngest
+
+  🖼️ public
+    🖼️ homePage.png
+    🖼️ resumeBuilderPage.png
+
+  📄 schema.prisma
+  ⚙️ next.config.js
+  📦 package.json
+  🔐 .env.local
+  📘 README.md
+
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
